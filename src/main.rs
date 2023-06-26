@@ -8,6 +8,7 @@ use components::{
     feedback_stats::FeedbackStats,
 };
 use store::Store;
+use yew::prelude::*;
 use yewdux::prelude::*;
 
 #[function_component(App)]
